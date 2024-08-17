@@ -8,6 +8,6 @@ There are some deviations from [the original Zenburn scheme](https://github.com/
 
 ## How to import
 
-Clone this repo, or just download the `gnomeProfile.dconf` file.
+Note, this will overwrite your existing set of GNOME Terminal profiles completely, including the default profile.
 
-Use dconf-editor, [as per this guide](https://www.baeldung.com/linux/gnome-terminal-profile-export), to import the profile from the command line.
+Clone this repo and then run `import.sh`
